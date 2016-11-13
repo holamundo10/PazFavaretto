@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1479058619 source:c:\users\jayce\desktop\pazfavaretto\adf.c
+1479067991 source:c:\users\jayce\desktop\pazfavaretto\adf.c
+	"ADF.h"
 
 1479058619 source:c:\users\jayce\desktop\pazfavaretto\archivo.c
 	"archivo.h"
@@ -8,20 +9,21 @@
 	<stdio.h>
 	<string.h>
 
-1479058619 source:c:\users\jayce\desktop\pazfavaretto\nodolista.c
+1479064763 source:c:\users\jayce\desktop\pazfavaretto\nodolista.c
 	"nodoLista.h"
 
 1479058619 c:\users\jayce\desktop\pazfavaretto\nodolista.h
 	<stdio.h>
 	"archivo.h"
 
-1479064003 source:c:\users\jayce\desktop\pazfavaretto\main.c
+1479068105 source:c:\users\jayce\desktop\pazfavaretto\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"nodoLista.h"
 	"nodoArbol.h"
 	"archivo.h"
+	"ADF.h"
 
 1479059399 c:\users\jayce\desktop\pazfavaretto\nodoarbol.h
 	<stdio.h>
@@ -31,4 +33,10 @@
 1479059447 source:c:\users\jayce\desktop\pazfavaretto\nodoarbol.c
 	"nodoArbol.h"
 	<string.h>
+
+1479067806 c:\users\jayce\desktop\pazfavaretto\adf.h
+	"nodoLista.h"
+	"archivo.h"
+	"nodoArbol.h"
+	<stdio.h>
 

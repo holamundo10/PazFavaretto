@@ -4,7 +4,7 @@
 #include "nodoLista.h"
 #include "nodoArbol.h"
 #include "archivo.h"
-
+#include "ADF.h"
 
 
 
@@ -16,14 +16,10 @@ int main()
     arbol= pasarDeArchivoAUnArbol(nombre, arbol);
     mostrarArbol(arbol, MododeUso());*/
 
-    nodo* lista=inicLista();
-    lista=agregarEnOrdenPorCantidad(lista, nuevoNodoLista());
-    mostrarLista(lista);
-    lista=agregarEnOrdenPorCantidad(lista, nuevoNodoLista());
-    mostrarLista(lista);
-    lista=agregarEnOrdenPorCantidad(lista, nuevoNodoLista());
-    mostrarLista(lista);
-
+    caja a[5];
+    int valido=agregarCaja(a, 0);
+    int i=elegirCaja();
+    int abrirOcerrarCaja(a, i );
 
     return 0;
 }

@@ -1,6 +1,8 @@
 #ifndef ADF_H_INCLUDED
 #define ADF_H_INCLUDED
-
+#include "nodoLista.h"
+#include "archivo.h"
+#include "nodoArbol.h"
 #include <stdio.h>
 
 typedef struct
@@ -13,23 +15,17 @@ typedef struct
     fila filita;
 } caja;
 
-/* funciones a crear
 
-agregarCaja;
+int agregarCaja(caja a[], int validos);
+int elegirCaja();
+int abrirOcerrarCaja(caja a[], int i);
+int buscarCaja(caja a[], int tipo_pago);
+void mostrarCaja(caja a[], int nro_caja);
+void agregarClienteACaja(caja a[], nodo* nuevo);
+void agregarClienteACajaEnTiempoDeterminado(caja a[], nodo* nuevo, int tiempo);
+int atenderClientes(caja a[]);
 
-abrirOcerrarCaja;
 
-buscarCaja;
-
-mostrarCaja;
-
-agregarClienteACaja;
-
-agregarClienteACajaEnTiempoDeterminado;
-
-atenderClientes;
-
-*/
 
 
 #endif // ADF_H_INCLUDED

@@ -15,3 +15,4 @@ problema: solo muestra el ultimo dato añadido del archivo al arbol.
 Deteccion del problema: se le estaba asignando en la funcion recursiva a la variable arbol, en vez de arbol->izq o arbol->der.
 
 
+EMPEZE CON LA LIBRERIA DEL ARREGLO DE FILAS.
