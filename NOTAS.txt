@@ -1,0 +1,14 @@
+
+
+nodo* agregarEnOrdenPorCantidad(nodo* lista, nodo* nuevo)
+
+Funcion se rompe si se introduce un dato con cantArticulos mayor que los que estan en la lista
+
+
+nodoArbol* insertarNodoArbol (nodoArbol* arbol, nodoArbol* nuevo)
+
+problema: solo muestra el ultimo dato añadido del archivo al arbol.
+
+Deteccion del problema: se le estaba asignando en la funcion recursiva a la variable arbol, en vez de arbol->izq o arbol->der.
+
+
