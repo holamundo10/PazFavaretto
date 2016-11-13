@@ -83,7 +83,7 @@ nodo* agregarEnOrdenTipoCliente(nodo* lista, nodo* nuevo)
         else{
             nodo* ante=lista;
             nodo* seg=lista->sig;
-            while(seg->cliente.tipo_cliente<=nuevo->cliente.tipo_cliente&&seg!=NULL)
+            while((seg)&&(seg->cliente.tipo_cliente<=nuevo->cliente.tipo_cliente))
             {
                 seg=seg->sig;
             }
@@ -99,7 +99,7 @@ nodo* agregarEnOrdenTipoCliente(nodo* lista, nodo* nuevo)
     return lista;
 }
 
-nodo* agregarEnOrdenPorCantidad(nodo* lista, nodo* nuevo) ///INCOMPLETO  :((
+nodo* agregarEnOrdenPorCantidad(nodo* lista, nodo* nuevo)
 {
     if(!lista)
     {
@@ -110,9 +110,10 @@ nodo* agregarEnOrdenPorCantidad(nodo* lista, nodo* nuevo) ///INCOMPLETO  :((
             lista=agregarAlPrincipio(lista, nuevo);
         }
         else{
+
             nodo* ante=lista;
             nodo* seg=lista->sig;
-            while(nuevo->cliente.cantArticulos >= seg->cliente.cantArticulos && seg!=NULL)
+            while((seg)&&(seg->cliente.cantArticulos<=nuevo->cliente.cantArticulos))
             {
                 ante=seg;
                 seg=seg->sig;

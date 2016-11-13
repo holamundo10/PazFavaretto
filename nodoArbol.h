@@ -15,6 +15,7 @@ nodoArbol* inicArbol();
 nodoArbol* crearNodoArbol(persona aux);
 nodoArbol* insertarNodoArbol(nodoArbol* arbol, nodoArbol* nuevo);
 int seleccionModoRecorrido();
+int MododeUso();
 void mostrarArbol(nodoArbol* arbol, int modo);
 nodoArbol* borrarUnNodoArbol(nodoArbol* arbol);
 

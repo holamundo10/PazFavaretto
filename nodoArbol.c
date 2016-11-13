@@ -55,6 +55,21 @@ int seleccionModoRecorrido()
     return modo;
 }
 
+int MododeUso(){
+    int m=0;
+    while(m<1||m>3){
+        printf("\n\nSeleccione modo de ordenacion deseado: ");
+        printf("\nInorder: 1\nPostOrder: 2\nPreOrder: 3\nOpcion: ");
+        fflush(stdin);
+        scanf("%d", &m);
+        if(m<1||m>3){
+            printf("\n\nEsa opcion no existe.\nElija otra opcion.\n");
+        }
+
+    }
+return m;
+}
+
 void mostrarArbol(nodoArbol* arbol, int modo)
 {
     if(modo==1)

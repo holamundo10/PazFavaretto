@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1479058619 source:c:\users\jayce\desktop\pazfavaretto\adf.c
+
+1479058619 source:c:\users\jayce\desktop\pazfavaretto\archivo.c
+	"archivo.h"
+
+1479058619 c:\users\jayce\desktop\pazfavaretto\archivo.h
+	<stdio.h>
+	<string.h>
+
+1479058619 source:c:\users\jayce\desktop\pazfavaretto\nodolista.c
+	"nodoLista.h"
+
+1479058619 c:\users\jayce\desktop\pazfavaretto\nodolista.h
+	<stdio.h>
+	"archivo.h"
+
+1479064003 source:c:\users\jayce\desktop\pazfavaretto\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"nodoLista.h"
+	"nodoArbol.h"
+	"archivo.h"
+
+1479059399 c:\users\jayce\desktop\pazfavaretto\nodoarbol.h
+	<stdio.h>
+	"archivo.h"
+	"nodoLista.h"
+
+1479059447 source:c:\users\jayce\desktop\pazfavaretto\nodoarbol.c
+	"nodoArbol.h"
+	<string.h>
+

@@ -10,11 +10,20 @@
 
 int main()
 {
-    char nombre[40]= "archivoClientes.dat";
-    MostrarClientes(nombre);
+    /*char nombre[40]= "archivoClientes.dat";
+    /*MostrarClientes(nombre);
     nodoArbol* arbol= inicArbol();
     arbol= pasarDeArchivoAUnArbol(nombre, arbol);
-    mostrarArbol(arbol, 2);
+    mostrarArbol(arbol, MododeUso());*/
+
+    nodo* lista=inicLista();
+    lista=agregarEnOrdenPorCantidad(lista, nuevoNodoLista());
+    mostrarLista(lista);
+    lista=agregarEnOrdenPorCantidad(lista, nuevoNodoLista());
+    mostrarLista(lista);
+    lista=agregarEnOrdenPorCantidad(lista, nuevoNodoLista());
+    mostrarLista(lista);
+
 
     return 0;
 }

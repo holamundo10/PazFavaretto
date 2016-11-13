@@ -1,8 +1,11 @@
-
+﻿
 
 nodo* agregarEnOrdenPorCantidad(nodo* lista, nodo* nuevo)
 
 Funcion se rompe si se introduce un dato con cantArticulos mayor que los que estan en la lista
+
+SOLUCIONADO: las condiciones del while estaban en el orden equivocado, primero se tenia q preguntar si tenia datos la variable seguidora, por q sino la comparaba
+con los datos del nodo nuevo estando en NULL.
 
 
 nodoArbol* insertarNodoArbol (nodoArbol* arbol, nodoArbol* nuevo)
