@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1479224006 source:e:\lpm 14-11-16\adf.c
+	"ADF.h"
+
+1479221490 e:\lpm 14-11-16\adf.h
+	"nodoLista.h"
+	"archivo.h"
+	"nodoArbol.h"
+	<stdio.h>
+
+1479068350 e:\lpm 14-11-16\nodolista.h
+	<stdio.h>
+	"archivo.h"
+
+1479222404 e:\lpm 14-11-16\archivo.h
+	<stdio.h>
+	<string.h>
+
+1479221488 e:\lpm 14-11-16\nodoarbol.h
+	<stdio.h>
+	"archivo.h"
+	"nodoLista.h"
+
+1479224260 source:e:\lpm 14-11-16\nodoarbol.c
+	"nodoArbol.h"
+	<string.h>
+
+1479068350 source:e:\lpm 14-11-16\nodolista.c
+	"nodoLista.h"
+
+1479222296 source:e:\lpm 14-11-16\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"nodoLista.h"
+	"nodoArbol.h"
+	"archivo.h"
+	"ADF.h"
+
+1479224006 source:e:\lpm 14-11-16\archivo.c
+	"archivo.h"
+

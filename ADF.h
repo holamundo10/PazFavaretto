@@ -25,6 +25,8 @@ void agregarClienteACaja(caja a[], nodo* nuevo);
 void agregarClienteACajaEnTiempoDeterminado(caja a[], nodo* nuevo, int tiempo);
 int atenderClientes(caja a[]);
 
+nodo* pasarDeArbolALineaDeCajas(nodoArbol* arbol, nodo* listaCajas);
+
 
 
 

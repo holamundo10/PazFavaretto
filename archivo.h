@@ -18,6 +18,9 @@ void cargarInicialArchivoClientes(char nombre[]);
 void AgregarClientes(char nombre[]);
 void MostrarClientes(char nombre[]);
 
+void inicioArchivo(char nombre[]);
+persona nuevoDatoCliente();
+
 
 
 #endif // ARCHIVO_H_INCLUDED

@@ -25,7 +25,7 @@ nodoArbol* insertarNodoArbol(nodoArbol* arbol, nodoArbol* nuevo)
     }
     else
     {
-        if(strcmp(arbol->p.nombreApellido, nuevo->p.nombreApellido) > 0)
+        if(strcmp(arbol->p.nombreApellido, nuevo->p.nombreApellido) < 0)
         {
             arbol->izq=insertarNodoArbol(arbol->izq, nuevo);
         }

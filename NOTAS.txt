@@ -16,3 +16,6 @@ Deteccion del problema: se le estaba asignando en la funcion recursiva a la vari
 
 
 EMPEZE CON LA LIBRERIA DEL ARREGLO DE FILAS.
+
+
+VERIFICAR: strcmp en nodoArbol.

@@ -21,7 +21,7 @@ nodoArbol* borrarUnNodoArbol(nodoArbol* arbol);
 
 nodoArbol* pasarDeArchivoAUnArbol(char nombre[], nodoArbol* arbol);
 
-nodo* pasarDeArbolALineaDeCajas(nodoArbol* arbol, nodo* listaCajas);
+
 
 
 #endif // NODOARBOL_H_INCLUDED

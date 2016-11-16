@@ -2,14 +2,14 @@
 
 int agregarCaja(caja a[], int v)
 {
-    if(v>5)
+    if(v>7)
     {
         printf("\n\nYa no se pueden agregar mas cajas. ");
     }
     else
     {
         char letra='s';
-        while(v<6&&letra=='s')
+        while(v<8&&letra=='s')
         {
             printf("\n\nIngrese el numero de la caja: ");
             fflush(stdin);
@@ -62,7 +62,7 @@ int agregarCaja(caja a[], int v)
 
 
             v++;
-            if(v<6)
+            if(v<8)
             {
                 printf("\n\nDesea agregar mas cajas(s/n): ");
                 fflush(stdin);
@@ -75,12 +75,12 @@ int agregarCaja(caja a[], int v)
 
 int elegirCaja(){
     int i=0;
-    while(i<1||i>6){
-        printf("\n\n¿Que caja desea modificar?(1-6)\n ");
+    while(i<1||i>8){
+        printf("\n\n¿Que caja desea modificar?(1-8)\n ");
         fflush(stdin);
         scanf("%d", &i);
 
-        if(i<1|| i>6){
+        if(i<1|| i>8){
             printf("\n\nEsa caja no existe. Seleccione nuevamente.");
         }
     }

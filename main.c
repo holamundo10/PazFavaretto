@@ -1,4 +1,4 @@
-#include <stdio.h>///Fecha de entrega 22/11
+#include <stdio.h> ///Fecha de entrega 22/11
 #include <stdlib.h>
 #include <string.h>
 #include "nodoLista.h"
@@ -10,16 +10,20 @@
 
 int main()
 {
-    /*char nombre[40]= "archivoClientes.dat";
-    /*MostrarClientes(nombre);
+    char name1[20]= "carlos";
+    char name2[20]= "alberto";
+    printf("%i", strcmp(name2, name1));
+
+    char nombre[40]= "archivoClientes.dat";
+    MostrarClientes(nombre);
     nodoArbol* arbol= inicArbol();
     arbol= pasarDeArchivoAUnArbol(nombre, arbol);
-    mostrarArbol(arbol, MododeUso());*/
+    mostrarArbol(arbol, MododeUso());
 
-    caja a[5];
+    caja a[8];
     int valido=agregarCaja(a, 0);
     int i=elegirCaja();
-    int abrirOcerrarCaja(a, i );
+    int abrirOcerrarCaja(a, i);
 
     return 0;
 }
