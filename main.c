@@ -10,10 +10,6 @@
 
 int main()
 {
-    char name1[20]= "carlos";
-    char name2[20]= "alberto";
-    printf("%i", strcmp(name2, name1));
-
     char nombre[40]= "archivoClientes.dat";
     MostrarClientes(nombre);
     nodoArbol* arbol= inicArbol();
